@@ -9,13 +9,9 @@ extra-source-files:
 - README.md
 - ChangeLog.md
 
-# Metadata used when publishing your package
-# synopsis:            Short description of your package
+synopsis:            Simple cellular automata done comonadically
 # category:            Web
 
-# To avoid duplicated efforts in documentation and dealing with the
-# complications of embedding Haddock markup inside cabal files, it is
-# common to point users to the README.md file.
 description:         Please see the README on GitHub at <https://github.com/b-mehta/automata#readme>
 
 dependencies:
@@ -23,6 +19,7 @@ dependencies:
 - comonad >= 5
 - random >= 1.1
 - JuicyPixels >= 3.2
+- vector >= 0.12
 - containers >= 0.5.11
 - optparse-applicative >= 0.14.2
 
